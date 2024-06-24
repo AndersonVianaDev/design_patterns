@@ -1,9 +1,9 @@
-package org.anderson.curso_ada.creational.factory.factory;
+package org.anderson.curso_ada.creational.factory.exemple1.factory;
 
-import org.anderson.curso_ada.creational.factory.enums.ProductType;
-import org.anderson.curso_ada.creational.factory.model.Product;
-import org.anderson.curso_ada.creational.factory.model.ProductDigital;
-import org.anderson.curso_ada.creational.factory.model.ProductPhysicist;
+import org.anderson.curso_ada.creational.factory.exemple1.enums.ProductType;
+import org.anderson.curso_ada.creational.factory.exemple1.model.Product;
+import org.anderson.curso_ada.creational.factory.exemple1.model.ProductDigital;
+import org.anderson.curso_ada.creational.factory.exemple1.model.ProductPhysicist;
 
 public class ProductFactory {
 

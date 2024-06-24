@@ -1,4 +1,4 @@
-package org.anderson.curso_ada.creational.factory.model;
+package org.anderson.curso_ada.creational.factory.exemple1.model;
 
 public abstract class  Product {
 

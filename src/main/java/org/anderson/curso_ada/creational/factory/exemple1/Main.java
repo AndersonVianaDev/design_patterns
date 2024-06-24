@@ -1,8 +1,8 @@
-package org.anderson.curso_ada.creational.factory;
+package org.anderson.curso_ada.creational.factory.exemple1;
 
-import org.anderson.curso_ada.creational.factory.enums.ProductType;
-import org.anderson.curso_ada.creational.factory.factory.ProductFactory;
-import org.anderson.curso_ada.creational.factory.model.Product;
+import org.anderson.curso_ada.creational.factory.exemple1.enums.ProductType;
+import org.anderson.curso_ada.creational.factory.exemple1.factory.ProductFactory;
+import org.anderson.curso_ada.creational.factory.exemple1.model.Product;
 
 public class Main {
     public static void main(String[] args) {
