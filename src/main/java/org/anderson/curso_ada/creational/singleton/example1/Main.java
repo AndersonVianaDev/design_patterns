@@ -1,8 +1,6 @@
-package org.anderson.curso_ada.creational.singleton;
+package org.anderson.curso_ada.creational.singleton.example1;
 
-import org.anderson.curso_ada.creational.singleton.model.ScheduleSingletonEager;
-import org.anderson.curso_ada.creational.singleton.model.ScheduleSingletonEnum;
-import org.anderson.curso_ada.creational.singleton.model.ScheduleSingletonLazy;
+import org.anderson.curso_ada.creational.singleton.example1.model.ScheduleSingletonEnum;
 
 public class Main {
     public static void main(String[] args) {

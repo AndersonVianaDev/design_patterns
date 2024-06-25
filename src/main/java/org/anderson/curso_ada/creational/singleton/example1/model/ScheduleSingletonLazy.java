@@ -1,15 +1,16 @@
-package org.anderson.curso_ada.creational.singleton.model;
+package org.anderson.curso_ada.creational.singleton.example1.model;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
-public enum ScheduleSingletonEnum {
+public class ScheduleSingletonLazy {
 
-    INSTANCE;
+    private static ScheduleSingletonLazy INSTANCE = new ScheduleSingletonLazy();
 
     private Map<String, Boolean> days = new HashMap<String, Boolean>();
 
-    private ScheduleSingletonEnum() {
+    private ScheduleSingletonLazy() {
         days.put("Monday", true);
         days.put("Tuesday", true);
         days.put("Wednesday", true);
@@ -19,8 +20,9 @@ public enum ScheduleSingletonEnum {
         days.put("Sunday", true);
     }
 
-    public static ScheduleSingletonEnum getInstance() {
-         return INSTANCE;
+    public static ScheduleSingletonLazy getInstance() {
+        if(Objects.isNull(INSTANCE)) return INSTANCE = new ScheduleSingletonLazy();
+        else return INSTANCE;
     }
 
     public Map<String, Boolean> getDays() { return days; }
